@@ -39,6 +39,10 @@ header {
 	margin-top: 2vh;
 }
 
+.header-section b {
+	color: #be0bd7;
+}
+
 header nav {
 	position: relative;
 	float: right;
