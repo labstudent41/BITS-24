@@ -178,15 +178,15 @@ section {
 
 .card .info {
 	position: relative;
-	z-index: 3;
 	color: black;
 	opacity: 0;
-	transform: translateY(20vh);
+	/* transform: translateY(20vh); */
 	transition: 0.5s all;
 }
 
 .card:hover .info {
 	opacity: 1;
+	z-index: 3;
 	transform: translateY(-50vh);
 	/* transform: translateY(-90px); */
 }
